@@ -1,0 +1,64 @@
+/*header*/
+.flex
+{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items:flex-end;
+}
+h1{
+    color:red
+}
+header img
+{
+    width:150px ;
+    
+}
+nav 
+{
+    margin-right: 90px;
+}
+nav a
+{
+    margin-right: 30px;
+}
+.bouton
+{
+    border-radius: 20px 20px;
+    background-color: #2d96c8;
+    height: 25px;
+    width: 110px;
+    border: none;
+}
+.white
+{
+    border-radius: 20px 20px;
+    background-color: white;
+    height: 25px;
+    width: 110px;
+    border: 1px #2d96c8 solid;
+    margin-right: 10px;
+}
+
+/* section image album*/
+.téléphone 
+{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.téléphone img
+{
+    
+}
+
+/*section téléphone deezer c'est quoi*/
+.phone
+{
+    height:400px;
+}
+.gris
+{
+    background: #f9f9f9 ;
+}

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Deezer</title>
     <meta name="description" content=" le site de deezer ">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -13,26 +13,32 @@
   </head>
 
   <body>
-    <header>
-        <h2>Deezer</h2>
-        <nav>
-            <a href="#">Télécharger</a>
-            <a href="#">Offre</a>
-            <a href="#">Connexion</a>
-            <a href="#">Inscription</a>
-        </nav>
+
+    <header class="flex">
+        
+            <img src="img/logo.png" alt="logo Deezer"/>
+        <div>  
+            <nav>
+                <a href="#">Télécharger</a>
+                <a href="#">Offres</a>
+                <button class="bouton white">Connexion</button>
+                <button class="bouton">inscription</button>
+            </nav>
+        </div>    
     </header>
 
-    <section>
+    <section class="téléphone">
         <div>
             <h1>Vos émotions mérite d'avoir leur musique.</h1>
             <p>profitez de 3 mois offerts pour esseyez deezer prenium*</p>
+            <button class="bouton white">Connexion</button>
+            <button class="bouton">inscription</button>
         </div>
         <img src="img/hero.png" alt="pochette d'album"/>
     </section>
 
-    <section>
-        <img src="img/phone.jpg" alt="image d'un smartphone"/>
+    <section class="flex gris">
+        <img class="phone" src="img/phone.jpg" alt="image d'un smartphone"/>
         <h3> Deezer, c'est quoi ?</h3>
         <div>
             <p> Toute votre musique dans votre poche.</p>
@@ -62,12 +68,48 @@
         <h3>Profitez de votre musique</h3>
         <div>
             <h4>Deezer gratuit</h4>
+            <p>0,00€</p>
+            <p>/mois</p>
+            <ul>
+                <li> 73 millions de titre</li>
+                <li>Lecture aléatoire</li>
+                <li>Sans publicité</li>
+                <li>Zapper en illimité</li>
+                <li>Mode hors connexion</li>
+                <li>6 comptes</li>
+                <button>S'inscrire</button>
+                <a href="#">Plus d'info</a>
+            </ul>
         </div>
         <div>
             <h4>Deezer Prenium</h4>
+            <p>0,00€</p>
+            <p>/mois</p>
+            <ul>
+                <li> 73 millions de titre</li>
+                <li>Lecture aléatoire</li>
+                <li>Sans publicité</li>
+                <li>Zapper en illimité</li>
+                <li>Mode hors connexion</li>
+                <li>6 comptes</li>
+            </ul>
+            <button>S'inscrire</button>
+                <a href="#">Plus d'info</a>
         </div>
         <div>
             <h4>Deezer Famille</h4>
+            <p>0,00€</p>
+            <p>/mois</p>
+            <ul>
+                <li> 73 millions de titre</li>
+                <li>Lecture aléatoire</li>
+                <li>Sans publicité</li>
+                <li>Zapper en illimité</li>
+                <li>Mode hors connexion</li>
+                <li>6 comptes</li>
+            </ul>
+            <button>S'inscrire</button>
+                <a href="#">Plus d'info</a>
         </div>
     </section>
 
@@ -76,30 +118,75 @@
     </section>
 
     <section>
+        
         <div>
-
+            <h5>Abonnement annuel -25%</h5>
+            <p> Un an d'abonnement à Deezer prenium pour 89,90 € au lieu de 119,88 €</p>
+            <a href="#"> en savoir plus</a>
+            <button> S'abonner</button>
         </div>
+        
         <div>
-
+            <h5>Deezer Hifi </h5>
+            <p> Un son authentique pour 14,99 €/mois, 1 mois offert</p>
+            <button> En savoir plus</button>
         </div>
-        <div>
 
+        <div>
+            <h5>Deezer Etudiant -50%</h5>
+            <p>Premium pour seulement  4,99 €/mois, 3 mois offert</p>
+            <button> En savoir plus</button>
         </div>
     </section>
 
     <footer>
+       
+        <button> app store</button>
+        <button> google play</button>
+        
         <div>
+            <h6>Deezer</h6>
+            <ul>
+                <li> Offres</li>
+                <li> Fonctionnalités</li>
+                <li>Appareils</li>
+                <li>Aide</li>
+                <li> A propos</li>
+                <li>Carrières</li>
+            </ul>
 
         </div>
+        
         <div>
-
+            <h6>Explorer</h6>
+            <ul>
+                <li>Tous les univers</li>
+                <li>Top écoutes</li>
+                <li>Sortie la plus populaire</li>
+                <li>Nouveautés</li>
+                <li>On reste à la maison</li>
+            </ul>
         </div>
+
         <div>
-
+            <h6>Qui sommes-nous ?</h6>
+            <ul>
+                <li>Musiciens et podcasteurs</li>
+                <li> Dévelloppeurs</li>
+                <li>Presse</li>
+            </ul>
         </div>
+       
         <div>
-
+            <h6>Légal</h6>
+            <ul>
+                <li>Mention légales</li>
+                <li>Condition générals d'utilisation</li>
+                <li>Politique de protection des données</li>
+                <li>Cookies</li>
+            </ul>
         </div>
+         <img src="img/logo.png" alt="logo Deezer"/>
     </footer>
     
   </body>
