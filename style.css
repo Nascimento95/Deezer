@@ -1,3 +1,8 @@
+/*général*/
+
+
+
+
 /*header*/
 .flex
 {
@@ -6,9 +11,7 @@
     flex-direction: row;
     align-items:flex-end;
 }
-h1{
-    color:red
-}
+
 header img
 {
     width:150px ;
@@ -21,6 +24,9 @@ nav
 nav a
 {
     margin-right: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
 }
 .bouton
 {
@@ -29,6 +35,7 @@ nav a
     height: 25px;
     width: 110px;
     border: none;
+    color:white;
 }
 .white
 {
@@ -38,6 +45,7 @@ nav a
     width: 110px;
     border: 1px #2d96c8 solid;
     margin-right: 10px;
+    color:#2d96c8;
 }
 
 /* section image album*/
@@ -48,9 +56,35 @@ nav a
     display: flex;
     justify-content: space-around;
 }
-.téléphone img
+h1
 {
-    
+    font-size: 2em;
+}
+.téléphone p
+{
+ font-size: 1.8em;
+ color:rgb(232, 91, 106);
+ font-weight: bold;
+}
+.bouton-rose
+{
+    border-radius: 20px 20px;
+    background-color: rgb(232, 91, 106);
+    height: 40px;
+    width: 160px;
+    border: none;
+    color:white;
+    margin-right: 10px;
+}
+.bouton-blanc
+{
+    border-radius: 20px 20px;
+    background-color: white;
+    height: 40px;
+    width: 160px;
+    border: 1px black solid;
+    color:black;
+    margin-right: 10px;
 }
 
 /*section téléphone deezer c'est quoi*/
@@ -61,4 +95,21 @@ nav a
 .gris
 {
     background: #f9f9f9 ;
+    height: 500px;
+}
+.flex2
+{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items:center;
+}
+.gris div
+{
+    width: 300px;
+    
+}
+.gris h3
+{
+    margin-top: 0px;
 }
