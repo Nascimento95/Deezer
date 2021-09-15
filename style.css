@@ -2,7 +2,6 @@
 
 
 
-
 /*header*/
 .flex
 {
@@ -107,9 +106,31 @@ h1
 .gris div
 {
     width: 300px;
-    
+
 }
 .gris h3
 {
     margin-top: 0px;
+}
+/* section rose =) */
+
+.icone 
+{
+    width: 50px;
+    padding-left: 40px;
+    
+}
+.pink
+{
+    background: rgb(232, 91, 106);
+}
+.pink div p
+{
+    width: 600px;
+    color:white
+}
+.pink div h3
+{
+    color: white;
+    font-size: 2em;
 }
