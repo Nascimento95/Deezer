@@ -158,3 +158,34 @@ h1
     box-shadow: 3px 2px #f9f9f9 ;
     text-align: center;
 }
+.check
+{
+    list-style-image: url("icon/check.png");
+}
+.no
+{
+    list-style-image: url("icon/close.png");
+    
+}
+ul li
+{
+    margin-top: 20px;
+}
+.price
+{
+    font-size: 1.6em;
+}
+ul + a
+{
+    text-align: center;
+}
+.bouton-gris
+{
+    border-radius: 20px 20px;
+    background-color: rgb(95, 95, 95);
+    height: 40px;
+    width: 160px;
+    border: none;
+    color:white;
+    margin-right: 10px;
+}
