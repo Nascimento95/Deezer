@@ -291,9 +291,22 @@ footer  li
     margin-left: 40%;
     margin-top: 60px;
 }
-div + img
+div + p 
 {
+    margin-left: 30%;
+    
+    width: 100px;
+}
+.logo-et-image img 
+{
+   
     margin-left: 45%;
     color: white;
     width: 100px;
+    
+}
+.foot-logo
+{
+    height: 20px;
+    margin:auto auto;
 }
