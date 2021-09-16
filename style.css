@@ -249,8 +249,45 @@ span
     color: rgb(232, 91, 106);
 }
 
-/*footer */
+/*footer*/
+
 footer
 {
     background: black;
+}
+h6
+{
+    color: rgb(121, 119, 119);
+    margin-left: 39px;
+}
+.foot
+{
+    margin-left: 20px;
+    height: 270px;
+    text-align: start;
+    
+}
+footer  li
+{
+    color:rgb(182, 177, 177);
+    list-style-type: none;
+}
+
+.play-et-store
+{
+    border: 1px white solid;
+    border-radius: 5px 5px;
+    width:100px ;
+    height:28px ;
+    margin-left: 10px;
+    
+    
+}
+.apple
+{
+    width:100px ;
+    border: 1px white solid;
+    border-radius: 5px 5px;
+    margin-left: 40%;
+    margin-top: 60px;
 }
