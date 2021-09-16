@@ -160,7 +160,7 @@ h1
 
 .compte-deezer:nth-child(2)
 {
-    background:rgb(8, 161, 199);
+    background:#2d96c8;
     
 }
 .check
@@ -318,6 +318,10 @@ div + p
 
 @media(min-width : 600px) 
 {
+    /* general*/
+    
+
+
     /*header téléphone*/
     .flex
     {
@@ -345,12 +349,17 @@ div + p
         visibility: hidden;
         
     }
-   
+    .gris div
+    {
+        width: auto;
+    
+    }
    
    .flex2
     {
            flex-direction: column;
-           
+           font-size: 1.7em;
+           text-align:center;
     }
     .phone
     {
@@ -369,5 +378,138 @@ div + p
     }
 
     /* section abonement gratuit prenium etc...*/
+    .container div 
+    {
+        width: auto;
+        height: auto;
+        background: #f9f9f9;
+        border:1px #f9f9f9 solid;
+        box-shadow: 3px 2px #ddd9d9 ;
+        text-align: center;
+    }
+
+    .compte-deezer:nth-child(2)
+    {
+        background:#2d96c8;
+        margin-top:20px;
+        margin-bottom:20px ;
+        
+    }
+
+    /*section info des compte deezer*/
+    .info
+    {
+        width: 400px;
+        text-align: center;
+        margin-top:50px;
+    }
+
+    /*section abonement avec -25% */
+    .bloc-horizon
+    {
+        background:rgb(241, 239, 239);
+        
+        
+    }
     
+    h5
+    {
+        padding-top: 10px;
+        padding-left: 20px;
+        text-align: center;
+        
+    }
+    h5 + p 
+    {
+       
+        visibility: hidden;
+    }
+    .bouton-abonement
+    {
+        margin-left:px;
+        visibility:visible;
     
+    }
+    .bouton-abonement1
+    {
+        margin-left:px;
+        border-radius: 20px 20px;
+        height: 30px;
+        width: 160px;
+        border: 2px black solid;
+        color:black;
+        visibility:visible;
+    }
+    .savoir
+    {
+        padding-left: 20px;
+    }
+    span
+    {
+        color: rgb(232, 91, 106);
+    }
+    
+    /*footer*/
+
+    .flex
+    {
+        align-items: flex-start;
+    }
+    h6
+    {
+        color: rgb(121, 119, 119);
+        margin-left: 39px;
+    }
+    .foot
+    {
+        margin-left: 20px;
+        height: 270px;
+        text-align: start;
+        
+    }
+    footer  li
+    {
+        color:rgb(182, 177, 177);
+        list-style-type: none;
+    }
+    
+    .play-et-store
+    {
+        border: 1px white solid;
+        border-radius: 5px 5px;
+        width:100px ;
+        height:28px ;
+        margin-left: 10px;
+        
+        
+    }
+    .apple
+    {
+        width:100px ;
+        border: 1px white solid;
+        border-radius: 5px 5px;
+        margin-left: 40%;
+        margin-top: 60px;
+    }
+    div + p 
+    {
+        margin-left: 30%;
+        
+        width: 100px;
+    }
+    .logo-et-image img 
+    {
+       
+        margin-left: 45%;
+        color: white;
+        width: 100px;
+        
+    }
+    .foot-logo
+    {
+        height: 20px;
+        margin:auto auto;
+    }
+
+
+}    
