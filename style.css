@@ -1,7 +1,7 @@
 /*général*/
 body
 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto" Arial, Helvetica, sans-serif;
 }
 h3
 {
@@ -27,7 +27,6 @@ h4
 header img
 {
     width:150px ;
-    
 }
 nav 
 {
@@ -157,6 +156,12 @@ h1
     border:1px #f9f9f9 solid;
     box-shadow: 3px 2px #f9f9f9 ;
     text-align: center;
+}
+
+.compte-deezer:nth-child(2)
+{
+    background:rgb(8, 161, 199);
+    
 }
 .check
 {
@@ -310,3 +315,59 @@ div + p
     height: 20px;
     margin:auto auto;
 }
+
+@media(min-width : 600px) 
+{
+    /*header téléphone*/
+    .flex
+    {
+        
+        
+        flex-direction: column;
+        align-items:center;
+    }
+    nav 
+    {
+        visibility: hidden;
+    }
+   /*section album*/
+   .téléphone 
+   {
+       height: auto;
+       flex-direction: column;
+       width: auto;
+       
+   }
+
+   /*section deezer c'est quoi */
+   .phone
+    {
+        visibility: hidden;
+        
+    }
+   
+   
+   .flex2
+    {
+           flex-direction: column;
+           
+    }
+    .phone
+    {
+        height: 0px;
+    }
+    .gris
+    {
+        padding-top: 0%;
+        height: 900px;
+    }
+
+    /*section fond rose avec icone*/
+    .pink
+    {
+        flex-direction: column-reverse;
+    }
+
+    /* section abonement gratuit prenium etc...*/
+    
+    
