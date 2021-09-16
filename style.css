@@ -291,3 +291,9 @@ footer  li
     margin-left: 40%;
     margin-top: 60px;
 }
+div + img
+{
+    margin-left: 45%;
+    color: white;
+    width: 100px;
+}
