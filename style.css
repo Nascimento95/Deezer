@@ -189,3 +189,68 @@ ul + a
     color:white;
     margin-right: 10px;
 }
+
+/* section class info pour les compte de deezer */
+
+.info
+{
+    width: 900px;
+    text-align: center;
+    margin: auto;
+}
+
+/* section promo abonnement deezer */
+
+.bloc-horizon
+{
+    background:rgb(241, 239, 239);
+    height: 105px;
+    
+}
+h5
+{
+    padding-top: 25px;
+    padding-left: 20px;
+    
+}
+h5 + p 
+{
+    width: auto;
+    margin: auto auto;
+    padding-left: 20px;
+    
+}
+.bouton-abonement
+{
+    margin-left: 51%;
+    border-radius: 20px 20px;
+    height: 30px;
+    width: 160px;
+    border: 2px black solid;
+    color:black;
+    
+
+}
+.bouton-abonement1
+{
+    margin-left: 40%;
+    border-radius: 20px 20px;
+    height: 30px;
+    width: 160px;
+    border: 2px black solid;
+    color:black;
+}
+.savoir
+{
+    padding-left: 20px;
+}
+span
+{
+    color: rgb(232, 91, 106);
+}
+
+/*footer */
+footer
+{
+    background: black;
+}
