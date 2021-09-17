@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Deezer</title>
     <meta name="description" content=" le site de deezer ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +17,8 @@
 
     <header class="flex">
         
-            <img src="img/logo.png" alt="logo Deezer"/>
+        <img src="img/logo.png" alt="logo Deezer"/>
+        <img class="menu"src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png"/>
         <div class="effacer">  
             <nav>
                 <a href="#">Télécharger</a>
@@ -28,7 +30,7 @@
     </header>
 
     <section class="téléphone">
-        <div>
+        <div class="query">
             <h1>Vos émotions mérite d'avoir leur musique.</h1>
             <p>Profitez de 3 mois offerts pour esseyez<br/> deezer prenium*</p>
             <button class="bouton-rose">Deezer Prenium</button>
@@ -71,7 +73,7 @@
     <section>
         <h3>Profitez de votre musique</h3>
         
-        <div class="flex2 container">
+        <div class="flex3 container">
             
             <div class="compte-deezer">
                 
@@ -128,29 +130,41 @@
     
     </section>
 
-    <section>
+    <section class="section-info">
         <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempus elit eget tortor tincidunt, nec auctor enim dignissim. Etiam quis fringilla metus. Praesent id sollicitudin purus.</p>
     </section>
 
     <section>
         
         <div class="bloc-horizon">
-            <h5>Abonnement annuel <span>-25%</span></h5>
-            <p> Un an d'abonnement à Deezer prenium pour 89,90 € au lieu de 119,88 € <button class="bouton-abonement1"> En savoir plus</button></p>
-            <a class="savoir" href="#"> en savoir plus</a>
-           
+             <div>
+                <h5>Abonnement annuel <span>-25%</span></h5>
+                <p> Un an d'abonnement à Deezer prenium pour 89,90 € au lieu de 119,88 € </p>
+                <a class="savoir" href="#"> en savoir plus</a>
+            </div>
+            <div class="right">
+                <button class="bouton-abonement1">en savoir plus</button> 
+            </div>
         </div>
         
         <div class="bloc-horizon">
-            <h5>Deezer Hifi </h5>
-            <p> Un son authentique pour 14,99 €/mois, 1 mois offert <button class="bouton-abonement"> En savoir plus</button></p>
-            
+            <div class="div-horizon">
+                <h5>Deezer Hifi </h5>
+                <p> Un son authentique pour 14,99 €/mois, 1 mois offert</p>
+            </div>
+            <div class="right">
+                <button class="bouton-abonement1"> En savoir plus</button>
+            </div>
         </div>
 
         <div class="bloc-horizon">
-            <h5>Deezer Etudiant <span>-50%</span></h5>
-            <p>Premium pour seulement  4,99 €/mois, 3 mois offert <button class="bouton-abonement"> En savoir plus</button></p>
-            
+            <div class="div-horizon">
+                <h5>Deezer Etudiant <span>-50%</span></h5>
+                <p>Premium pour seulement  4,99 €/mois, 3 mois offert</p>
+            </div>
+            <div class="right">
+                <button class="bouton-abonement1"> En savoir plus</button>
+            </div>
         </div>
     </section>
 
