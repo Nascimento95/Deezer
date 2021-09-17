@@ -2,6 +2,12 @@
 body
 {
     font-family: "Roboto" Arial, Helvetica, sans-serif;
+    
+}
+#bloc-page
+{
+    width:100%;
+    margin:auto;
 }
 h3
 {
@@ -141,7 +147,7 @@ h1
 }
 .pink div p
 {
-    width: 600px;
+    width: auto;
     color:white
 }
 .pink div h3
@@ -349,6 +355,12 @@ div + p
 
 /*media query*/
 @media all and (min-width: 100px) and (max-width: 800px){
+    /*général*/
+        #bloc-page
+    {
+         width:100%;
+         margin:auto;
+    }
 
     /*header*/
     .flex
