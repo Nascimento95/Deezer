@@ -4,11 +4,13 @@ body
     font-family: "Roboto" Arial, Helvetica, sans-serif;
     
 }
+/*
 #bloc-page
 {
     width:100%;
     margin:auto;
 }
+*/
 h3
 {
     color :black; 
@@ -135,11 +137,43 @@ h1
     margin-top: 0px;
 }
 /* section rose =) */
-
+.flex6
+{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: auto;
+}
+.flex6 div{
+    flex-basis: 50%;
+}
+.flex6 div:nth-child(1) {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.flex6 div:nth-child(2) {
+    padding: 30px 50px;
+}
+.flex6 div h3
+{
+    text-align: left;
+}
+.larg1
+{
+    
+    width: 500px;
+    margin-left: 50px;
+}
+.largeur
+{
+    
+    text-align: center;
+}
 .icone 
 {
-    width: 50px;
-    padding-left: 40px;
+    width:40px;
+    margin-right:50px;
 }
 .pink
 {
@@ -147,7 +181,7 @@ h1
 }
 .pink div p
 {
-    width: auto;
+    
     color:white
 }
 .pink div h3
@@ -166,6 +200,7 @@ h1
     box-shadow: 2px 2px 10px  gray; ;
     text-align: center;
 }
+
 .flex3
 {
     display:flex;
@@ -237,7 +272,7 @@ ul + a
 }
 .div-horizon
 {
-    width: 481px;
+    width: auto;
     padding-bottom:20px;
 }
 
@@ -409,11 +444,17 @@ div + p
         height:0px;
     }
     /*section a fond rose du site*/
-    .flex2 /*classe qui englobe la section*/
+    .flex6 /*classe qui englobe la section*/
     {
         display:flex;
         flex-direction: column-reverse;
         align-items:center;
+    }
+    .icone 
+    {
+        width:40px;
+        margin-right:30px;
+        margin-left: 10px;
     }
     /*section profitez de votre musique  et les compte deezer*/
     .container   /*classe qui englobe la section*/  
