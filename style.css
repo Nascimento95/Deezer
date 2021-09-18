@@ -1,58 +1,45 @@
 /*général*/
-body
-{
-    font-family: "Roboto" Arial, Helvetica, sans-serif;
-    
+body{
+    font-family: "Roboto" Arial, Helvetica, sans-serif; 
 }
 /*
-#bloc-page
-{
+#bloc-page{
     width:100%;
     margin:auto;
 }
 */
-h3
-{
+h3{
     color :black; 
     font-size: 2em;
     text-align: center;
 }
-h4
-{
+h4{
     font-size: 1.7em;
 }
-
-
 /*header*/
-.flex
-{
+.flex{
     display:flex;
     justify-content: space-between;
     flex-direction: row;
     align-items:flex-end;
 }
-.menu
-{
+.menu{
     display: none;
 }
 
-header + img
-{
+header + img{
     width:150px ;
 }
-nav 
-{
+nav{
     margin-right: 90px;
 }
-nav a
-{
+nav a{
     margin-right: 30px;
     color: black;
     text-decoration: none;
     font-weight: bold;
 }
-.bouton
-{
+.bouton{
     border-radius: 20px 20px;
     background-color: #2d96c8;
     height: 25px;
@@ -60,8 +47,7 @@ nav a
     border: none;
     color:white;
 }
-.white
-{
+.white{
     border-radius: 20px 20px;
     background-color: white;
     height: 25px;
@@ -72,25 +58,21 @@ nav a
 }
 
 /* section image album*/
-.téléphone 
-{
+.téléphone {
     height: 300px;
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
 }
-h1
-{
+h1{
     font-size: 2em;
 }
-.téléphone p
-{
+.téléphone p{
  font-size: 1.8em;
  color:rgb(232, 91, 106);
  font-weight: bold;
 }
-.bouton-rose
-{
+.bouton-rose{
     border-radius: 20px 20px;
     background-color: rgb(232, 91, 106);
     height: 40px;
@@ -99,8 +81,7 @@ h1
     color:white;
     margin-right: 10px;
 }
-.bouton-blanc
-{
+.bouton-blanc{
     border-radius: 20px 20px;
     background-color: white;
     height: 40px;
@@ -111,34 +92,29 @@ h1
 }
 
 /*section téléphone deezer c'est quoi*/
-.phone
-{
+.phone{
     height:400px;
 }
-.gris
-{
+.gris{
     background: #f9f9f9 ;
     height: 500px;
 }
-.flex2
+.flex5
 {
     display:flex;
     justify-content: space-around;
     flex-direction: row;
     align-items:center;
 }
-.gris div
-{
+.gris div{
     width: 300px;
 
 }
-.gris h3
-{
+.gris h3{
     margin-top: 0px;
 }
 /* section rose =) */
-.flex6
-{
+.flex6{
     display: flex;
     justify-content: space-around;
     width: 75%;
@@ -159,40 +135,32 @@ h1
 {
     text-align: left;
 }
-.larg1
-{
-    
+.larg1{
     width: 500px;
     margin-left: 50px;
 }
-.largeur
-{
+.largeur{
     
     text-align: center;
 }
-.icone 
-{
+.icone {
     width:40px;
     margin-right:50px;
 }
-.pink
-{
+.pink{
     background: rgb(232, 91, 106);
 }
-.pink div p
-{
+.pink div p{
     
     color:white
 }
-.pink div h3
-{
+.pink div h3{
     color: white;
     font-size: 2em;
 }
 
 /*section des différent compte deezer disponnible*/
-.container div 
-{
+.container div {
     width: 300px;
     height: 600px;
     background: #f9f9f9;
@@ -201,42 +169,33 @@ h1
     text-align: center;
 }
 
-.flex3
-{
+.flex3{
     display:flex;
     justify-content: center;
 }
-.compte-deezer 
-{
+.compte-deezer {
     margin-right: 20px;
     box-shadow: 2px 2px  gray;
 }
-.compte-deezer:nth-child(2)
-{
+.compte-deezer:nth-child(2){
     background:#2d96c8;
 }
-.check
-{
+.check{
     list-style-image: url("icon/check.png");
 }
-.no
-{
+.no{
     list-style-image: url("icon/close.png");
 }
-ul li
-{
+ul li{
     margin-top: 20px;
 }
-.price
-{
+.price{
     font-size: 1.6em;
 }
-ul + a
-{
+ul + a{
     text-align: center;
 }
-.bouton-gris
-{
+.bouton-gris{
     border-radius: 20px 20px;
     background-color: rgb(95, 95, 95);
     height: 40px;
@@ -245,145 +204,114 @@ ul + a
     color:white;
     margin-right: 10px;
 }
-
 /* section class info pour les compte de deezer */
-.section-info 
-{
+.section-info {
     margin-top:30px ;
     margin-bottom: 30px;
 }
-.info
-{
+.info{
     width: 900px;
     text-align: center;
     margin: auto;
 }
-
 /* section promo abonnement deezer */
-
-.bloc-horizon
-{
+.bloc-horizon{
     background:rgb(241, 239, 239);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center; 
     margin-bottom:10px ;
     box-shadow: 1px 1px 2px gray ;
 }
-.div-horizon
-{
+.div-horizon{
     width: auto;
     padding-bottom:20px;
+    margin-left: 10%;
 }
-
-h5
-{
+h5{
     padding-top: 25px;
-    padding-left: 20px;
 }
-h5 + p 
-{
+h5 + p {
     width: auto;
-    margin: auto auto;
-    padding-left: 20px;
+    margin: auto auto; 
 }
-.bouton-abonement
-{
+.bouton-abonement1{
     border-radius: 20px 20px;
     height: 30px;
     width: 160px;
     border: 2px black solid;
     color:black;
-    position:relative;
-    left: 50%
+    margin:auto 120px;
 }
 
-.bouton-abonement1
-{
-    border-radius: 20px 20px;
-    height: 30px;
-    width: 160px;
-    border: 2px black solid;
-    color:black;
-}
-.savoir
-{
-    padding-left: 20px;
-}
-span
-{
+span{
     color: rgb(232, 91, 106);
 }
-
 /*footer*/
-
-footer
-{
+.flex7{
+    display: flex;
+    justify-content: center;
+    padding-top: 36px;
+}
+.flex2{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items:center;
+}
+footer{
     background: black;
 }
-h6
-{
+h6{
     color: rgb(121, 119, 119);
     margin-left: 39px;
 }
-.foot
-{
+.foot{
     margin-left: 20px;
     height: 270px;
     text-align: start;
 }
-footer  li
-{
+footer  li{
     color:rgb(182, 177, 177);
     list-style-type: none;
 }
 
-.play-et-store
-{
+.play-et-store{
     border: 1px white solid;
     border-radius: 5px 5px;
     width:100px ;
-    height:28px ;
+    height:29px ;
     margin-left: 10px;
 }
-.apple
-{
+.apple{
     width:100px ;
     border: 1px white solid;
     border-radius: 5px 5px;
-    margin-left: 40%;
-    margin-top: 60px;
 }
-div + p 
-{
+div + p {
     margin-left: 30%;
     width: 100px;
 }
-.flex4
-{
+.flex4{
     display: flex;
     justify-content: center;
     justify-content: space-around;
     align-items: center;
 }
-.logo-et-image img 
-{
+.logo-et-image img {
     width: 30px;
 }
-.logo-et-image2 img 
-{
+.logo-et-image2 img {
     width: 100px;
 }
 .deezer-fin
 {
     color: rgb(121, 119, 119);
 }
-.span1
-{
+.span1{
     color:rgb(182, 177, 177);
 }
-.foot-logo
-{
+.foot-logo{
     height: 20px;
     margin:auto auto;
 }
@@ -430,46 +358,43 @@ div + p
         text-align: center ;
     }
     /*section deezer c'est quoi avec le téléphone qui va disparaitre*/
-    .gris /* cet classe englobe cet section*/
-    {
+    .gris /* cet classe englobe cet section*/{
         background: #f9f9f9 ;
         height: auto;
-        flex-direction: column;
+        align-items: center;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .phone
-    {
+    .flex5{
+        flex-direction: column;
+    }
+    .phone{
         display: none;
         height:0px;
     }
+    
     /*section a fond rose du site*/
-    .flex6 /*classe qui englobe la section*/
-    {
+    .flex6 /*classe qui englobe la section*/{
         display:flex;
         flex-direction: column-reverse;
         align-items:center;
     }
-    .icone 
-    {
+    .icone {
         width:40px;
         margin-right:30px;
         margin-left: 10px;
     }
     /*section profitez de votre musique  et les compte deezer*/
-    .container   /*classe qui englobe la section*/  
-    {
+    .container   /*classe qui englobe la section*/  {
         flex-direction: column; 
         align-items: center;
     } 
-    .compte-deezer 
-    {
+    .compte-deezer {
         margin-top: 20px;
     }
     
     /*section info*/
-    .info
-    {
+    .info{
         width: auto;
         text-align: center;
         padding: auto;
@@ -481,48 +406,45 @@ div + p
      }
     /* section abonement -25%*/
     
-    .bloc-horizon
-    { 
+    .bloc-horizon{ 
         flex-direction: column;
     }
-    h5
-    {
+    .bouton-abonement1{
+        margin:auto;
+        margin-bottom: 10px;
+    }
+    .div-horizon{
+        width: auto;
+        padding-bottom:20px;
+        margin-left: 0%;
+        text-align: center;
+    }
+    h5{
         text-align: center;  
         padding-top: 0px;
         padding-left: 0px;
     }
-    h5+p 
-    {
+    h5+p {
         display: none;
     }
-  
     /*footer*/
-    
-    .flex2
-    {
+    .flex2{
         display:flex;
         justify-content: space-between;
         flex-direction: column;
         align-items:flex-start;
     }   
     /* parti des logo du footer*/
-    .flex4
-    {
+    .flex4{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
-    
-    .foot-logo
-    {
+     .foot-logo{
         margin-top:10px;
         height: 20px;
         width: 20px;
     }
-    
-    
-
 }
 
